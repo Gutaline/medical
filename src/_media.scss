@@ -1,0 +1,164 @@
+@media (max-width: 1268px) {
+  .slide1-subtitle {
+    font-size: 130px;
+  }
+
+  .slide3 h1 span {
+    font-size: 5rem;
+  }
+  .slide3 h1 {
+    font-size: 23px;
+  }
+}
+@media (max-width: 1024px) {
+  .slide1-btn {
+    padding-left: 60%;
+    margin: 0px;
+  }
+
+  .slide1-subtitle {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 986px) {
+  .slide3 h1 {
+    margin-top: 118px;
+  }
+  .slide3-sprey_img {
+    height: 48%;
+    z-index: -1;
+  }
+  .slide3-sprey_buble1 {
+    height: 5em;
+    left: 18%;
+    bottom: 6%;
+  }
+  .slide3-sprey_buble5 {
+    left: 11%;
+    top: 50%;
+    z-index: -3;
+  }
+}
+
+@media (max-width: 786px) {
+  .slide1-text {
+    padding: 0px 30px;
+    margin-top: 190px;
+    text-align: center;
+  }
+  .container {
+    padding: 10px;
+  }
+  .slide1-btn {
+    padding-left: 0;
+    margin: 0;
+    margin-top: 60px;
+  }
+  .slide1-subtitle {
+    font-size: 70px;
+    font-family: 'Bitter', serif;
+    font-weight: 300;
+    line-height: 1em;
+    margin-top: 10px;
+    z-index: 10;
+  }
+  .slide1-title {
+    font-size: 30px;
+  }
+  .slide3 h1 {
+    margin-top: 55px;
+    line-height: 4rem;
+    margin-top: 88px;
+    padding-left: 7rem;
+  }
+  .slide3 h1 span {
+    font-size: 4rem;
+  }
+  .container2 div.info-table {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 698) {
+  .container2 {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 520px) {
+  .slide1-text {
+    padding: 0px 5px;
+    margin-top: 190px;
+    text-align: left;
+  }
+  .slide3-sprey_buble1 {
+    height: 4em;
+    left: 18%;
+    bottom: 6%;
+  }
+
+  .slide3-sprey_buble5 {
+    left: 11%;
+    top: 62%;
+    height: 2em;
+    z-index: -3;
+  }
+
+  .slide3-sprey_img {
+    height: 33%;
+    z-index: -1;
+  }
+
+  .slide2-text {
+    font-size: 24px;
+    padding: 29px;
+  }
+  .slide2-window {
+    border-radius: 19px;
+    border: 19px solid #ffffff;
+    width: 91.5%;
+  }
+
+  .slide1-subtitle {
+    font-size: 45px;
+    font-family: 'Bitter', serif;
+    font-weight: 300;
+    line-height: 1em;
+    margin-top: 10px;
+    z-index: 10;
+  }
+  .slide3 h1 {
+    line-height: 4rem;
+    margin-top: 21px;
+    padding-left: 3rem;
+  }
+  .info-table {
+    width: 310px;
+    font-size: 22px;
+    padding: 32px;
+  }
+  .slide3 h1 {
+    font-size: 17px;
+  }
+  .slide3 h1 span {
+    font-size: 3rem;
+  }
+  .slide2-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 390px) {
+  .custom-btn {
+    width: 300px;
+    height: 75px;
+  }
+  .slide3 h1 {
+    line-height: 4rem;
+    padding-left: 1rem;
+    width: 380px;
+  }
+  .slide3 h1 span {
+    font-size: 2rem;
+  }
+}
