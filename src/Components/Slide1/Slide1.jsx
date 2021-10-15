@@ -18,7 +18,7 @@ function Slide1(props) {
             <div className = "slide1-text">
                 <span className = "slide1-title" >Привет,</span>
                 <div className = "slide1-subtitle" >
-                    это <span> не </span> коммерческое задание
+                    это <span> не </span> коммерческое задание!
                 </div>
                 <div className = "slide1-btn" onClick = {() => props.onClick1()}>
                     {props.check}
