@@ -3,7 +3,7 @@ import "../../App.scss";
 
 import leftArrow from '../../img/arrow.png'
 
-function Slider({children,home,arrow,dots,ward},ref) {
+function Slider({children,arrow,dots,ward},ref) {
   
 
   const [step, setStep] = useState(0);
@@ -72,10 +72,7 @@ function Slider({children,home,arrow,dots,ward},ref) {
     return Array.from({length:children.length}).map((elem,index)=> {
       
         return <div className = {index === currentSlide? "track_dot active" :"track_dot"} key = {index} onClick = {() => setSlide(index)}></div>
-      
-        
-      
-      
+
     })
   }
 
@@ -86,11 +83,6 @@ function Slider({children,home,arrow,dots,ward},ref) {
       <div className="track">
         
       
-        <button className = "track_left-arrow"
-                onClick = {()=> {prevSlide()}}
-        >
-          <img src={leftArrow} alt="" />
-        </button>
           <div
             className="slider"
             ref={test}
@@ -102,7 +94,7 @@ function Slider({children,home,arrow,dots,ward},ref) {
             }}
             onTouchStart = {(e) => {
               startX = e.changedTouches[0].clientX;
-              console.log(e.changedTouches[0].clientX)
+          
             }}
             onTouchEnd = {(e) => {
               isSwipe(startX, e.changedTouches[0].clientX);
@@ -110,12 +102,23 @@ function Slider({children,home,arrow,dots,ward},ref) {
           >
             {children}
           </div>
-        <button className = "track_right-arrow" onClick = {()=> {nextSlide()}}>
-          <img src={leftArrow} alt="" />
-        </button>
+       
+        {dots &&
         <div className = "track_container-dots">
+          {arrow &&
+              <button className = "track_left-arrow"
+                      onClick = {()=> {prevSlide()}}
+              >
+                <img src={leftArrow} alt="" />
+              </button>
+          }
           {dotsRender()}
+          {arrow &&<button className = "track_right-arrow" onClick = {()=> {nextSlide()}}>
+          <img src={leftArrow} alt="" />
+          </button>
+          }
         </div>
+        }
       </div>
     
   );

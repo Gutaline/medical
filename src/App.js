@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <Header goHome={() => mainSlider.current.home()} />
-      <Slider ref={mainSlider} home={true} arrow={true} dots={true} ward={arcWard}>
+      <Slider ref={mainSlider} home={true} ward={arcWard}>
         <Slide1
           check={<Button symbol={'>'}>Что дальше?</Button>}
           onClick1={() => mainSlider.current.getNextSlide()}
@@ -35,6 +35,7 @@ function App() {
         <Slide2 />
         <Slide3 />
       </Slider>
+
       <Footer />
     </div>
   );

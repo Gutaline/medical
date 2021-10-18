@@ -3,10 +3,10 @@
     font-size: 130px;
   }
 
-  .slide3 h1 span {
+  .slide3 h1 span > {
     font-size: 5rem;
   }
-  .slide3 h1 {
+  .slide3 h1 > {
     font-size: 23px;
   }
 }
@@ -19,10 +19,19 @@
   .slide1-subtitle {
     font-size: 100px;
   }
+  .popup-btn {
+    left: 70%;
+  }
+  .popup-content__title h1 {
+    font-size: 3em;
+  }
+  .popup-content__text {
+    height: 390px;
+  }
 }
 
 @media (max-width: 986px) {
-  .slide3 h1 {
+  .slide3 h1 > {
     margin-top: 118px;
   }
   .slide3-sprey_img {
@@ -66,7 +75,7 @@
   .slide1-title {
     font-size: 30px;
   }
-  .slide3 h1 {
+  .slide3 h1 > {
     margin-top: 55px;
     line-height: 4rem;
     margin-top: 88px;
@@ -127,7 +136,7 @@
     margin-top: 10px;
     z-index: 10;
   }
-  .slide3 h1 {
+  .slide3 h1 > {
     line-height: 4rem;
     margin-top: 21px;
     padding-left: 3rem;
@@ -153,12 +162,37 @@
     width: 300px;
     height: 75px;
   }
-  .slide3 h1 {
+  .slide3 h1 > {
     line-height: 4rem;
     padding-left: 1rem;
     width: 380px;
   }
-  .slide3 h1 span {
+  .slide3 h1 span > {
     font-size: 2rem;
+  }
+}
+
+@media only screen and (max-height: 1024px) {
+  .slide2-title {
+    width: 370px;
+    font-size: 33px;
+    margin-top: 120px;
+  }
+
+  .slide2-text {
+    height: auto;
+  }
+  .popup-content__text span {
+    font-size: 23px;
+  }
+  .popup-content__text {
+    height: 345px;
+  }
+  .popup-content__text div {
+    font-size: 23px;
+  }
+  .popup-content__title h2 {
+    font-size: 1.2em;
+    font-weight: 500;
   }
 }

@@ -3,11 +3,14 @@ import sprey from '../../img/sprey.png'
 
 import InfoTable from '../InfoTable/InfoTable'
 import Button from '../Button/Button'
+import PopUp from '../PopUp/PopUp'
 
 import pinkBuble from '../../img/pink-buble.png'
 import yellowBuble from '../../img/yellow-buble.png'
 
 function Slide3() {
+    
+    const [popup,SetPopup] = React.useState(false)
     return (
         <div className = "slide3">
             <div className = "slide3-title">
@@ -18,9 +21,11 @@ function Slide3() {
                 <InfoTable>Ehicula ipsum a arcu cursus vitae. Eu non diam phasellus vestibulum lorem sed risus ultricies</InfoTable>
                 <div className="container2">
                     <InfoTable>Ehicula</InfoTable>
-                    <Button symbol = {"+"}>Подробнее</Button> 
+                    <Button onClick = {() => {SetPopup(true)}} symbol = {"+"}>Подробнее</Button> 
                 </div>
             </div>
+            
+            {popup && <PopUp onClick = {() => {SetPopup(false)}}> </PopUp>}
 
            <img className = "slide3-sprey_img" src={sprey} alt="" />
            <img className = "slide3-sprey_buble1" src={pinkBuble} alt="" />
