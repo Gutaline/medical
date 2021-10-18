@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/medical/static/css/main.098cde5e.chunk.css",
-    "main.js": "/medical/static/js/main.d6a94780.chunk.js",
-    "main.js.map": "/medical/static/js/main.d6a94780.chunk.js.map",
+    "main.css": "/medical/static/css/main.470ce962.chunk.css",
+    "main.js": "/medical/static/js/main.b513891b.chunk.js",
+    "main.js.map": "/medical/static/js/main.b513891b.chunk.js.map",
     "runtime-main.js": "/medical/static/js/runtime-main.60776862.js",
     "runtime-main.js.map": "/medical/static/js/runtime-main.60776862.js.map",
     "static/js/2.f08017a7.chunk.js": "/medical/static/js/2.f08017a7.chunk.js",
     "static/js/2.f08017a7.chunk.js.map": "/medical/static/js/2.f08017a7.chunk.js.map",
     "index.html": "/medical/index.html",
-    "static/css/main.098cde5e.chunk.css.map": "/medical/static/css/main.098cde5e.chunk.css.map",
+    "static/css/main.470ce962.chunk.css.map": "/medical/static/css/main.470ce962.chunk.css.map",
     "static/js/2.f08017a7.chunk.js.LICENSE.txt": "/medical/static/js/2.f08017a7.chunk.js.LICENSE.txt",
     "static/media/arrow.58c48f70.png": "/medical/static/media/arrow.58c48f70.png",
     "static/media/bacterium-2.87945cf1.png": "/medical/static/media/bacterium-2.87945cf1.png",
     "static/media/bacterium.14e7f788.png": "/medical/static/media/bacterium.14e7f788.png",
+    "static/media/close.c5e94654.png": "/medical/static/media/close.c5e94654.png",
     "static/media/home.5f3cc0f4.png": "/medical/static/media/home.5f3cc0f4.png",
     "static/media/logo.0915f63a.png": "/medical/static/media/logo.0915f63a.png",
     "static/media/pink-buble.e21dc738.png": "/medical/static/media/pink-buble.e21dc738.png",
@@ -23,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.60776862.js",
     "static/js/2.f08017a7.chunk.js",
-    "static/css/main.098cde5e.chunk.css",
-    "static/js/main.d6a94780.chunk.js"
+    "static/css/main.470ce962.chunk.css",
+    "static/js/main.b513891b.chunk.js"
   ]
 }
